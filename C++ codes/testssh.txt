@@ -1,0 +1,3 @@
+scp '/home/fzahedi/Desktop/testssh.txt' justin@192.168.0.102:/home/justin/Desktop/sshtest
+
+scp -r '/home/justin/Desktop/Ad/FRI-Client-SDK_Cpp/example/AP_BO_newsetup/Subject6' fzahedi@192.168.0.109:/home/fzahedi/Fatemeh/Adaptive/AP_BO_newsetup/DATA

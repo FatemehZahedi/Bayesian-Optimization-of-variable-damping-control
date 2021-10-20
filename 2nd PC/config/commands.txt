@@ -1,0 +1,9 @@
+python config_file_client.py --mode 1
+python ssh_client.py --info config/step_01.json
+python config_file_client.py --mode 2
+python ssh_client.py --info config/step_02.json
+python matlab_client.py
+python Bayesian_Optimization_NormalOF_withMATLAB.py
+python config_file_client.py --mode 6
+python ssh_client.py --info config/step_06.json
+python dummy_completed.py

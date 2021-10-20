@@ -1,0 +1,13 @@
+{
+    "label": "get_config_from_KukaPC",
+    "data": {
+        "src": "/home/justin/Desktop/Ad/FRI-Client-SDK_Cpp/example/AP_BO_newsetup/Configfiles/Config.txt",
+        "dest": "/home/fzahedi/Fatemeh/Adaptive/AP_BO_newsetup/config/Config.txt",
+        "remote_ip": "192.168.0.102",
+        "username": "justin",
+        "password": "SEMTE2015asu",
+        "hostname": "justin"
+    },
+    "type": 0,
+    "travel": 1
+}

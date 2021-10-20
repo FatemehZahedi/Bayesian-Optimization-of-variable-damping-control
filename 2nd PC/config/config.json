@@ -1,0 +1,71 @@
+{
+    "remote_config": {
+        "remote_ip": "192.168.0.102",
+        "username": "justin",
+        "password": "SEMTE2015asu",
+        "hostname": "justin"
+    },
+    "copy_config": {
+        "remote_config_folder": "/home/justin/Desktop/Ad/FRI-Client-SDK_Cpp/example/AP_BO_newsetup/Configfiles",
+        "local_config_folder": "/home/fzahedi/Fatemeh/Adaptive/AP_BO_newsetup/config",
+        "config_filename": "Config.txt",
+        "data": {
+            "remote_folder_src": "/home/justin/Desktop/Ad/FRI-Client-SDK_Cpp/example/AP_BO_newsetup/Subject9/Block13/Iteration3",
+            "local_folder_dest": "/home/fzahedi/Fatemeh/Adaptive/AP_BO_newsetup/DATA/Subject9/Block13/Iteration3",
+            "remote_folder_dest": "/home/justin/Desktop/Ad/FRI-Client-SDK_Cpp/example/AP_BO_newsetup/Subject9/Block13/Iteration3",
+            "no1": "9",
+            "no2": "13",
+            "no3": "3",
+            "no4": "4"
+        }
+    },
+    "copy_param": {
+        "local_param_loc_folder": "/home/fzahedi/Fatemeh/Adaptive/AP_BO_newsetup/DATA",
+        "remote_param_folder": "/home/justin/Desktop/Ad/FRI-Client-SDK_Cpp/example/AP_BO_newsetup/Subject1/Block3/Trial10",
+        "param_location_filename": "parameterlocation.txt",
+        "data": {
+            "local_param_loc": "/home/fzahedi/Fatemeh/Adaptive/AP_BO_newsetup/DATA/Subject9"
+        }
+    },
+    "ssh_client": {
+        "step_01": {
+            "label": "get_config_from_KukaPC",
+            "data": {
+                "src": "/home/justin/Desktop/Ad/FRI-Client-SDK_Cpp/example/AP_BO_newsetup/Configfiles/Config.txt",
+                "dest": "/home/fzahedi/Fatemeh/Adaptive/AP_BO_newsetup/config/Config.txt",
+                "remote_ip": "192.168.0.102",
+                "username": "justin",
+                "password": "SEMTE2015asu",
+                "hostname": "justin"
+            },
+            "type": 0,
+            "travel": 1
+        },
+        "step_02": {
+            "label": "get_files_from_KukaPC",
+            "data": {
+                "src": "/home/justin/Desktop/Ad/FRI-Client-SDK_Cpp/example/AP_BO_newsetup/Subject9/Block13/Iteration3",
+                "dest": "/home/fzahedi/Fatemeh/Adaptive/AP_BO_newsetup/DATA/Subject9/Block13/Iteration3",
+                "remote_ip": "192.168.0.102",
+                "username": "justin",
+                "password": "SEMTE2015asu",
+                "hostname": "justin"
+            },
+            "type": 1,
+            "travel": 1
+        },
+        "step_06": {
+            "label": "copy_files_to_KukaPC",
+            "data": {
+                "src": "/home/fzahedi/Fatemeh/Adaptive/AP_BO_newsetup/DATA/Subject9",
+                "dest": "/home/justin/Desktop/Ad/FRI-Client-SDK_Cpp/example/AP_BO_newsetup/Subject9/Block13/Iteration3",
+                "remote_ip": "192.168.0.102",
+                "username": "justin",
+                "password": "SEMTE2015asu",
+                "hostname": "justin"
+            },
+            "type": 1,
+            "travel": 0
+        }
+    }
+}

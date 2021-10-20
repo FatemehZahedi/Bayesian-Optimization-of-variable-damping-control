@@ -1,0 +1,13 @@
+{
+    "label": "get_files_from_KukaPC",
+    "data": {
+        "src": "/home/justin/Desktop/Ad/FRI-Client-SDK_Cpp/example/AP_BO_newsetup/Subject9/Block13/Iteration3",
+        "dest": "/home/fzahedi/Fatemeh/Adaptive/AP_BO_newsetup/DATA/Subject9/Block13/Iteration3",
+        "remote_ip": "192.168.0.102",
+        "username": "justin",
+        "password": "SEMTE2015asu",
+        "hostname": "justin"
+    },
+    "type": 1,
+    "travel": 1
+}
